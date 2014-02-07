@@ -1,0 +1,8 @@
+remove all unknown characters first then...
+
+until string[0] == a || string[0] == e || 
+	string[0] == i || string[0] == o || 
+	string[0] == u || string[0] == y
+	string.insert(-1, sting[0])
+	string.pop[0]
+end
