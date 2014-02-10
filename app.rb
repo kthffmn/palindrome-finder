@@ -13,8 +13,9 @@ class App < Sinatra::Application
 	end
 
 	post '/result' do
-		@palindrome = Palindrome.new(params["string"])
+		palindrome = Palindrome.new(params["string"])
 		@string = params["string"]
+    @result = palindrome.get_longest
 		erb :results
 	end
 
