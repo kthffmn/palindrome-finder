@@ -12,9 +12,9 @@ class Palindrome
   def get_longest
     result = increment.max_by{|a| a.length}
     if result.length < 2
-      "There are no palindromes in '" + string + "'."
+      "No palindromes found"
     else
-      "The longest palindrome is '" + result + "'."
+      "The longest palindrome is: " + result
     end
   end
 
