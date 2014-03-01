@@ -6,15 +6,23 @@ class Palindrome
   attr_reader :string
 
   def initialize(string)
-    @string = string
+    if string == ""
+      @string = false
+    else
+      @string = string
+    end
   end
 
   def get_longest
-    result = increment.max_by{|a| a.length}
-    if result.length < 2
-      "No palindromes found"
+    if string
+      result = increment.max_by{|a| a.length}
+      if result.length < 2
+        "no palindromes found"
+      else
+        result
+      end
     else
-      "The longest palindrome is: " + result
+      "no palindromes found"
     end
   end
 

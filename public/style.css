@@ -1,54 +1,86 @@
-body {
-	color: black;
-	background-color: white;
-	font-size: 1.5em;
-	line-height: 1.4em;
-	background-image: url("./bricks.jpg")
-}
+@import url(http://fonts.googleapis.com/css?family=Coda);
 
+body {
+  background: linear-gradient(to left, #FF8A00 51%, #ffa132 49%);
+}
 
 h1 {
-	text-align: center;
-	font-family: Times, serif;
-}
-
-p {
-	margin-top: 5%;
-	margin-bottom: 5%;
-	font-family: Times, serif;}
-}
-
-img {
-	border: 3px solid white;
-    display: block;
-	margin: 0 auto;
+  color: #990000;
+  font-family: 'Coda', cursive;
+  margin-top: 35px;
 }
 
 .content {
-	width: 75%;
-	margin: 0 auto;
-	text-align: center;
-	margin-top: 100px;
+  color: #000033;
 }
 
-.footer a {     
-	/*display: inline;*/
-	margin: 0 auto;
-    padding: 7px;
-    margin-left: 13%;
-    font-family: Times, serif;
-    color: #cccccc;
-}
-.footer {
-	margin-left: 16%;
+.buttonz {
+  background-color: #318A86;
+  color: white;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+  font-size: 1em;
 }
 
-a:link {
-	color:#D80000 ;
-    font-family: Times, serif;
+.buttonz:hover{
+  background-color: #276e6b;
 }
+
+.back {
+  padding: 7px;
+  font-size: 1.25em;
+  background-color: #A3A2CA;
+}
+
+.back:hover {
+  background-color: #8382b7;
+}
+
+.palz {
+  padding: 15px 20px 15px 20px;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+.whitebox {
+  margin-top: 10px;
+}
+.outercontainer {
+  text-align: center;
+}
+
+.innercontainer {
+  text-align: center;
+}
+
+.formy {
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+.labelz {
+  font-size: 1.5em;
+}
+
+
+.atresult {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.atstring {
+  margin-bottom: 10px;
+}
+
 a:visited {
-	color:#D80000;
-    font-family: Times, serif;
-} /* visited link */ 
-a:hover {text-decoration:underline;}
+  text-decoration:none;
+  color: white;
+}
+
+a:hover {
+  text-decoration:none;
+  color: white;
+}
+
+a:active {text-decoration:none;}
