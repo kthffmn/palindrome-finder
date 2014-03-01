@@ -1,7 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Coda);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
   background: linear-gradient(to left, #FF8A00 51%, #ffa132 49%);
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -21,6 +23,7 @@ h1 {
   box-shadow: none;
   border: none;
   font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .buttonz:hover{
@@ -28,19 +31,23 @@ h1 {
 }
 
 .back {
-  padding: 7px;
-  font-size: 1.25em;
-  background-color: #A3A2CA;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.7em;
+/*  background-color: #A3A2CA;*/
+  position: absolute;
+  left: 46.3%;
 }
 
-.back:hover {
+/*.back:hover {
   background-color: #8382b7;
 }
-
+*/
 .palz {
   padding: 15px 20px 15px 20px;
   margin-top: 5px;
   font-size: 1.2em;
+  position: absolute;
+  left: 42.3%;
 }
 
 .whitebox {
@@ -67,10 +74,12 @@ h1 {
 .atresult {
   margin-bottom: 10px;
   font-weight: bold;
+  font-size: 1.7em;
 }
 
 .atstring {
-  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 1.3em;
 }
 
 a:visited {
